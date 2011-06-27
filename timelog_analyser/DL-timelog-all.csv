@@ -1,0 +1,538 @@
+"Week","Date","mr_david_laingci - time","mr_david_laingci - memo"
+"Mon 11/15/10 - Sun 11/21/10","11/15/10","00:00",""
+"Mon 11/15/10 - Sun 11/21/10","11/16/10","00:00",""
+"Mon 11/15/10 - Sun 11/21/10","11/17/10","00:00",""
+"Mon 11/15/10 - Sun 11/21/10","11/18/10","00:00",""
+"Mon 11/15/10 - Sun 11/21/10","11/19/10","02:50","00:20 - [CIAPI docs] meetings & emails
+01:40 - [CIAPI docs] Merge into TFS mainline
+00:50 - Connect Excel to CIAPI"
+"Mon 11/15/10 - Sun 11/21/10","11/20/10","00:00",""
+"Mon 11/15/10 - Sun 11/21/10","11/21/10","00:00",""
+"Mon 11/22/10 - Sun 11/28/10","11/22/10","04:40","01:00 - [Logon portal] - Set up project skeleton
+00:50 - [Logon portal] - Status meeting
+00:50 - [Logon portal] - Crap4Net metrics
+00:50 - [CIAPI docs] - Merge into mainline
+01:10 - [Logon portal] - Status meeting"
+"Mon 11/22/10 - Sun 11/28/10","11/23/10","00:00",""
+"Mon 11/22/10 - Sun 11/28/10","11/24/10","08:10","05:10 - [CIAPI docs] Merge into mainline
+02:10 - [Logon portal] - Excel OAuth popup
+00:50 - VS2010 Load testing dojo prep"
+"Mon 11/22/10 - Sun 11/28/10","11/25/10","01:10","01:10 - [Logon portal] - Excel 2007 client"
+"Mon 11/22/10 - Sun 11/28/10","11/26/10","05:40","00:20 - [Logon prototype] Excel integration
+00:20 - [Logon prototype] Status meeting
+00:40 - [Logon prototype] Excel prototype
+02:10 - [Logon prototype] WCF REST / MVC side by side
+02:10 - [Logon prototype] Retrospective"
+"Mon 11/22/10 - Sun 11/28/10","11/27/10","00:00",""
+"Mon 11/22/10 - Sun 11/28/10","11/28/10","00:00",""
+"Mon 11/29/10 - Sun 12/05/10","11/29/10","06:00","02:30 - Admin emails
+01:10 - [CIAPI docs] - re-order to facilitate future merging
+02:20 - [Logon portal] - Planning meeting"
+"Mon 11/29/10 - Sun 12/05/10","11/30/10","06:10","01:00 - [CIAPI docs] - REST-Webservice-Schema R&D project proposal
+05:10 - [CIAPI docs] - Deploy docs"
+"Mon 11/29/10 - Sun 12/05/10","12/01/10","08:20","01:00 - Emails
+07:20 - [Logon prototype] Prepare for demo"
+"Mon 11/29/10 - Sun 12/05/10","12/02/10","00:00",""
+"Mon 11/29/10 - Sun 12/05/10","12/03/10","07:20","04:50 - [CIAPI docs] Bug fixing
+00:50 - Git trainging
+01:40 - [CIAPI docs] Bug fixing"
+"Mon 11/29/10 - Sun 12/05/10","12/04/10","00:00",""
+"Mon 11/29/10 - Sun 12/05/10","12/05/10","00:00",""
+"Mon 12/06/10 - Sun 12/12/10","12/06/10","08:10","04:00 - Admin & meetings
+03:00 - Deploy project feed website
+01:10 - [CIAPI docs] - Deploy docs"
+"Mon 12/06/10 - Sun 12/12/10","12/07/10","08:10","06:20 - [CIAPI docs] Bug fixing
+01:50 - Learn about Android"
+"Mon 12/06/10 - Sun 12/12/10","12/08/10","06:40","00:30 - Emails
+04:40 - [CIAPI docs] Javascript testing
+00:30 - JsTestDriver
+01:00 - [CIAPI docs] Javascript testing"
+"Mon 12/06/10 - Sun 12/12/10","12/09/10","06:40","00:40 - [CIAPI docs] Javascript testing
+00:50 - Emails
+00:10 - Emails
+01:00 - [CIAPI clients] Setup
+01:00 - Catchup with Ryan
+00:50 - Debug PHP bug fetching Unfuddle RSS
+00:10 - Debug PHP bug fetching Unfuddle RSS
+00:40 - [CIAPI docs] - Re-include streaming in API docs
+00:50 - [CIAPI docs] - Coding standards
+00:30 - Catchup with Ryan"
+"Mon 12/06/10 - Sun 12/12/10","12/10/10","09:50","00:20 - Catchup with Ryan
+00:30 - Emails
+00:10 - Emails
+00:30 - Catchup with Ryan
+00:30 - [CIAPI docs] Fetch RSS from Unfuddle
+02:10 - Phoenix planning
+01:30 - PHP command line to fetch Unfuddle RSS
+01:30 - [CIAPI.FLex] Setup project
+00:20 - Catchup with Sky
+00:10 - Catchup with Sky
+00:10 - Catchup with Sky
+01:10 - Catchup with Sky
+00:10 - Catchup with Sky
+00:40 - [CIAPI.FLex] Setup project"
+"Mon 12/06/10 - Sun 12/12/10","12/11/10","00:00",""
+"Mon 12/06/10 - Sun 12/12/10","12/12/10","00:00",""
+"Mon 12/13/10 - Sun 12/19/10","12/13/10","04:20","01:50 - Intro meeting with Adam Wright
+02:30 - Status & planning meeting with Sky"
+"Mon 12/13/10 - Sun 12/19/10","12/14/10","07:20","00:50 - Emails
+02:20 - [CIAPI.*] Status update
+02:10 - [CIAPI.JS] Build process
+02:00 - [CIAPI.docs] Merge in latest changes"
+"Mon 12/13/10 - Sun 12/19/10","12/15/10","08:10","00:30 - emails
+07:40 - [CIAPI.docs] Explorer tests"
+"Mon 12/13/10 - Sun 12/19/10","12/16/10","00:00",""
+"Mon 12/13/10 - Sun 12/19/10","12/17/10","06:00","01:20 - Emails
+00:10 - Emails
+01:40 - [CIAPI.docs] Extracting RESTWebservices-Schema
+02:10 - Team status meeting
+00:40 - [CIAPI.*] Add global crap numbers"
+"Mon 12/13/10 - Sun 12/19/10","12/18/10","02:30","02:30 - [CIAPI.*] Add global crap numbers"
+"Mon 12/13/10 - Sun 12/19/10","12/19/10","00:00",""
+"Mon 12/20/10 - Sun 12/26/10","12/20/10","00:00",""
+"Mon 12/20/10 - Sun 12/26/10","12/21/10","00:00",""
+"Mon 12/20/10 - Sun 12/26/10","12/22/10","00:00",""
+"Mon 12/20/10 - Sun 12/26/10","12/23/10","00:00",""
+"Mon 12/20/10 - Sun 12/26/10","12/24/10","00:00",""
+"Mon 12/20/10 - Sun 12/26/10","12/25/10","00:00",""
+"Mon 12/20/10 - Sun 12/26/10","12/26/10","00:00",""
+"Mon 12/27/10 - Sun 01/02/11","12/27/10","00:00",""
+"Mon 12/27/10 - Sun 01/02/11","12/28/10","00:00",""
+"Mon 12/27/10 - Sun 01/02/11","12/29/10","10:10","01:40 - [CIAPI.CS] Setup build agent
+00:50 - Catchup with Sky
+00:10 - Catchup with Sky
+00:10 - Catchup with Sky
+00:10 - Catchup with Sky
+00:10 - Catchup with Sky
+07:00 - [CIAPI.CS] Setup build agent"
+"Mon 12/27/10 - Sun 01/02/11","12/30/10","09:00","02:30 - [CIAPI.CS] Setup build agent
+00:30 - [CIAPI.CS] Setup build agent
+02:30 - [CIAPI.CS] Import Lightstreamer client
+02:10 - [CIAPI.Flex] Wrassle into shape
+01:20 - [CIAPI.Flex] Use T4 to generate ActionScript DTOs"
+"Mon 12/27/10 - Sun 01/02/11","12/31/10","07:20","03:00 - Admin (mainly financial reconciliation)
+01:50 - Emails
+00:10 - Emails
+02:20 - [CIAPI.Flex] - DTO generation"
+"Mon 12/27/10 - Sun 01/02/11","01/01/11","00:00",""
+"Mon 12/27/10 - Sun 01/02/11","01/02/11","00:00",""
+"Mon 01/03/11 - Sun 01/09/11","01/03/11","00:00",""
+"Mon 01/03/11 - Sun 01/09/11","01/04/11","06:20","01:20 - [CIAPI.*] - Planning
+02:30 - [Admin] - Odesk finances for Dec 2010
+02:30 - Admin (Jan budgets + securing ODesk payments)"
+"Mon 01/03/11 - Sun 01/09/11","01/05/11","07:00","02:40 - [CIAPI.CS] - Streaming
+01:00 - Rebuild Build server
+02:00 - Meetings
+01:20 - Rebuild Hudson server"
+"Mon 01/03/11 - Sun 01/09/11","01/06/11","06:00","02:10 - [CIAPI.*] - Setup DNS & servers
+01:30 - [CIAPI.*] - Status update prep
+02:20 - [CIAPI.docs] - Split and merge"
+"Mon 01/03/11 - Sun 01/09/11","01/07/11","08:50","01:00 - Emails
+00:10 - [CIAPI.Flex] Rename to CIAPI.As
+03:10 - [CIAPI.Java] Set up project
+04:30 - [CIAPI.docs] Merge into TFS"
+"Mon 01/03/11 - Sun 01/09/11","01/08/11","00:00",""
+"Mon 01/03/11 - Sun 01/09/11","01/09/11","00:00",""
+"Mon 01/10/11 - Sun 01/16/11","01/10/11","04:40","01:40 - [CIAPI.CS] Status meeting
+03:00 - [CIAPI.CS] Samples setup"
+"Mon 01/10/11 - Sun 01/16/11","01/11/11","05:40","03:30 - [CIAPI.CS] Samples setup
+02:10 - [CIAPI.CS] Streaming"
+"Mon 01/10/11 - Sun 01/16/11","01/12/11","08:40","08:40 - [CIAPI.CS] Streaming"
+"Mon 01/10/11 - Sun 01/16/11","01/13/11","02:00","02:00 - [CIAPI.CS] Streaming"
+"Mon 01/10/11 - Sun 01/16/11","01/14/11","00:00",""
+"Mon 01/10/11 - Sun 01/16/11","01/15/11","00:00",""
+"Mon 01/10/11 - Sun 01/16/11","01/16/11","00:00",""
+"Mon 01/17/11 - Sun 01/23/11","01/17/11","00:00",""
+"Mon 01/17/11 - Sun 01/23/11","01/18/11","00:00",""
+"Mon 01/17/11 - Sun 01/23/11","01/19/11","00:00",""
+"Mon 01/17/11 - Sun 01/23/11","01/20/11","00:00",""
+"Mon 01/17/11 - Sun 01/23/11","01/21/11","00:00",""
+"Mon 01/17/11 - Sun 01/23/11","01/22/11","00:00",""
+"Mon 01/17/11 - Sun 01/23/11","01/23/11","00:00",""
+"Mon 01/24/11 - Sun 01/30/11","01/24/11","07:00","01:30 - Emails & Admin
+00:40 - [API] - Raise error reporting tickets
+04:50 - [CIAPI.docs] - Streaming documentation"
+"Mon 01/24/11 - Sun 01/30/11","01/25/11","07:40","00:20 - [CIAPI.docs] - Streaming documentation
+00:10 - API planning meeting
+00:40 - API planning meeting
+03:00 - [API] - Include 401 error details
+03:30 - [CIAPI.docs] Streaming sample"
+"Mon 01/24/11 - Sun 01/30/11","01/26/11","07:30","07:30 - [CIAPI.docs] Streaming sample"
+"Mon 01/24/11 - Sun 01/30/11","01/27/11","07:20","07:20 - [CIAPI.CS] Excel sample"
+"Mon 01/24/11 - Sun 01/30/11","01/28/11","08:50","00:20 - Emails
+00:10 - Emails
+01:20 - [CIAPI.docs] Streaming documentation
+00:10 - Catchup with Ryan
+00:50 - Catchup with Ryan
+00:10 - Catchup with Ryan
+00:30 - [CIAPI.docs] Streaming documentation
+05:20 - [CIAPI.CS] Get CRAP metrics working"
+"Mon 01/24/11 - Sun 01/30/11","01/29/11","00:00",""
+"Mon 01/24/11 - Sun 01/30/11","01/30/11","00:00",""
+"Mon 01/31/11 - Sun 02/06/11","01/31/11","06:30","01:00 - [Admin] Emails
+00:10 - [Admin] Emails
+01:20 - [Admin] Planning for wk6
+01:30 - [Admin] AWS IAM setup
+02:30 - [CIAPI.docs] Add documentation for ClientAccountMargin and Quotes"
+"Mon 01/31/11 - Sun 02/06/11","02/01/11","09:10","02:20 - [CIAPI.docs] Describe streams
+01:30 - [CIAPI.docs] handle recursive DTOs
+05:20 - [CIAPI.docs] Describe streams"
+"Mon 01/31/11 - Sun 02/06/11","02/02/11","09:20","02:00 - [CIAPI.CS] - Handle timeouts
+00:10 - [CIAPI.CS] Excel sample
+01:00 - [CIAPI.CS] Fix broken tests
+01:00 - [Admin] Emails
+00:10 - [CIAPI.CS] Excel sample
+00:10 - [CIAPI.CS] Setup ActiveMQ WebSocket instance
+02:10 - [CIAPI.doc] deploy to amazon test instance
+02:40 - [CIAPI.CS] Excel sample"
+"Mon 01/31/11 - Sun 02/06/11","02/03/11","09:00","04:30 - Prepare & deliver status update
+03:00 - [CIAPI.docs] Streaming docs & sample
+01:30 - [CIAPI.docs] deploy to DEV1 & PPE"
+"Mon 01/31/11 - Sun 02/06/11","02/04/11","08:30","08:30 - [CIAPI.docs] Silverlight crashing bug"
+"Mon 01/31/11 - Sun 02/06/11","02/05/11","01:40","01:40 - Create wk6 show & tell post"
+"Mon 01/31/11 - Sun 02/06/11","02/06/11","00:00",""
+"Mon 02/07/11 - Sun 02/13/11","02/07/11","06:50","01:20 - Admin & emails
+00:10 - Admin & emails
+02:00 - [CIAPI.docs] Debug issues with invalid schema
+00:30 - [CIAPI.docs] Update documentation
+01:10 - [API] Setup prototype with error messages always returned as 200
+00:20 - [CIAPI.docs] Update documentation
+01:20 - [CIAPI.CS] Websocket client"
+"Mon 02/07/11 - Sun 02/13/11","02/08/11","05:00","01:00 - [CIAPI.CS] Websocket Implementation
+01:30 - [CIAPI.CS] Websocket implemtation
+01:30 - [CIAPI.docs] annotate DTOs
+01:00 - Admin / Emails"
+"Mon 02/07/11 - Sun 02/13/11","02/09/11","03:50","02:10 - [CIAPI.Java] Wire up CRAP metrics
+01:40 - [Admin] R&D setup"
+"Mon 02/07/11 - Sun 02/13/11","02/10/11","06:40","00:50 - [CIAPI.docs] Update CIAPI.CS
+00:30 - [CIAPI.docs] Bugfixes
+00:10 - [API] planning meeting
+01:20 - [API] planning meeting
+03:50 - [CIAPI.docs] Bugfixes"
+"Mon 02/07/11 - Sun 02/13/11","02/11/11","05:30","01:00 - [Admin] - Emails
+01:10 - [Admin] Emails
+03:20 - [CIAPI.cs] Excel sample"
+"Mon 02/07/11 - Sun 02/13/11","02/12/11","00:00",""
+"Mon 02/07/11 - Sun 02/13/11","02/13/11","00:00",""
+"Mon 02/14/11 - Sun 02/20/11","02/14/11","07:30","00:30 - [CIAPI.docs] Bugfixes
+01:30 - [CIAPI.CS] Beta testing planning
+00:30 - [CIAPI.docs] documentation
+00:50 - [Admin] emails & planning
+00:30 - [Admin] planning
+02:10 - [CIAPI.docs] - Add ""how to get username/password page""
+00:10 - 
+00:50 - [CIAPI.docs] - Planning
+00:30 - [CIAPI.docs] - move to Git"
+"Mon 02/14/11 - Sun 02/20/11","02/15/11","06:50","00:30 - [Admin] Emails
+00:50 - [CIAPI.CS] setup build for dev branch
+01:10 - [CIAPI.CS] setup build for dev branch
+00:10 - [CIAPI.docs] - move to Git
+01:20 - [CIAPI.docs] - Request password
+02:00 - [CIAPI.docs] - move to github
+00:50 - [CIAPI.docs] - dojo build process"
+"Mon 02/14/11 - Sun 02/20/11","02/16/11","06:50","04:50 - [CIAPI.docs] Pairing with Sky
+02:00 - [CIAPI.docs] Extend AboutSessions koans"
+"Mon 02/14/11 - Sun 02/20/11","02/17/11","06:50","00:10 - [CIAPI.docs] Add settings dialog
+04:10 - [CIAPI.docs] Settings dialog
+01:30 - [CIAPI.CS] Catchup with Ryan
+01:00 - [CIAPI.docs] Settings dialog"
+"Mon 02/14/11 - Sun 02/20/11","02/18/11","09:00","02:20 - [CIAPI.docs] Settings dialog
+00:20 - [CIAPI.docs] - dojo build process
+01:40 - [CIAPI.docs] - settings
+01:50 - [AWSSnapshotter] - testing
+00:30 - [CIAPI.docs] - settings dialog
+01:00 - [Admin] - Hudson builds
+01:20 - [CIAPI.docs] - settings dialog"
+"Mon 02/14/11 - Sun 02/20/11","02/19/11","00:00",""
+"Mon 02/14/11 - Sun 02/20/11","02/20/11","00:00",""
+"Mon 02/21/11 - Sun 02/27/11","02/21/11","07:30","02:40 - [Admin] Emails & plannig
+00:40 - [CIAPI.CS] - Support
+04:10 - [API] - Log issues"
+"Mon 02/21/11 - Sun 02/27/11","02/22/11","05:50","01:50 - [Admin]
+04:00 - [API] 7170 -Service calls should always return a DTO"
+"Mon 02/21/11 - Sun 02/27/11","02/23/11","08:10","00:30 - [Admin] Emails
+07:40 - [API bug: 7170] Should never return empty body"
+"Mon 02/21/11 - Sun 02/27/11","02/24/11","10:20","02:40 - [API bug] Should never return empty body
+07:40 - [CIAPI.CS] Koans"
+"Mon 02/21/11 - Sun 02/27/11","02/25/11","04:20","00:10 - [CIAPI.CS] Koans
+00:10 - [API] 7170 -Service calls should always return a DTO
+01:30 - [CIAPI.CS] -Koans presentation
+02:30 - [Admin] -Show & Tell"
+"Mon 02/21/11 - Sun 02/27/11","02/26/11","00:00",""
+"Mon 02/21/11 - Sun 02/27/11","02/27/11","00:00",""
+"Mon 02/28/11 - Sun 03/06/11","02/28/11","05:40","00:10 - [Admin] -Show & Tell
+02:30 - [Admin] -Planning
+01:20 - [Admin] budgeting
+00:40 - [Admin] budgeting
+00:50 - [Admin] budgeting
+00:10 - [Admin] budgeting"
+"Mon 02/28/11 - Sun 03/06/11","03/01/11","07:30","02:30 - [Admin] Emails & chasing CR
+04:00 - [CIAPI.Js] - build process
+01:00 - [CIAPI.Js] Build process"
+"Mon 02/28/11 - Sun 03/06/11","03/02/11","08:00","00:50 - [Admin] Emails
+07:10 - [CIAPI.Js] Build process"
+"Mon 02/28/11 - Sun 03/06/11","03/03/11","06:50","00:10 - [Admin] -Planning
+03:00 - [Admin] Budgeting
+02:50 - [CIAPI.docs] - Break dependancy on RESTWebServices
+00:50 - [CIAPI.*] - Setup github repo for specs"
+"Mon 02/28/11 - Sun 03/06/11","03/04/11","04:30","01:40 - [CIAPI.docs] Settings
+01:50 - [CIAPI.Js] Calculate complexity metric
+01:00 - [Admin] Show and Tell"
+"Mon 02/28/11 - Sun 03/06/11","03/05/11","01:40","01:00 - [Admin] Show and Tell
+00:40 - [CIAPI.Js] Experiment with Sonar for Javascript metric collection"
+"Mon 02/28/11 - Sun 03/06/11","03/06/11","00:00",""
+"Mon 03/07/11 - Sun 03/13/11","03/07/11","04:40","00:40 - [CIAPI.*] - Setup github repo for specs
+01:00 - [CIAPI.docs] - Deploy latest version
+00:50 - [Admin] - Catchup with Ryan
+00:50 - [CIAPI.docs] - Deploy latest version
+01:20 - [Admin] -Planning"
+"Mon 03/07/11 - Sun 03/13/11","03/08/11","02:00","02:00 - [CIAPI.Js] Learning about Javascript"
+"Mon 03/07/11 - Sun 03/13/11","03/09/11","10:20","01:20 - [Admin] Catchup with Ryan
+01:20 - [API] RESTWebServices.MVC spike
+00:20 - [CIAPI.Js] Learning about Javascript
+00:10 - [CIAPI.Js] Learning about Javascript
+00:10 - [CIAPI.Js] Learning about Javascript
+03:10 - [API] RESTWebServices.MVC spike
+01:50 - [aws_snapshotter] Planning meeting with Ryan G
+02:00 - [API] - RESTWebServices.MVC spike"
+"Mon 03/07/11 - Sun 03/13/11","03/10/11","07:00","01:30 - [API] - RESTWebServices.MVC spike
+00:30 - [API] RESTWebservices.MVC spike
+01:30 - [Admin] prepare for status meeting
+00:20 - [Admin] prepare for status meeting
+01:00 - [Admin] Prepare for status presentation
+02:10 - [API] -RESTWebServices.MVC spike"
+"Mon 03/07/11 - Sun 03/13/11","03/11/11","06:00","00:40 - [Admin] Emails
+01:20 - [Admin] Catchup with Ryan
+00:40 - [Admin] Prep for Social Media discussion
+03:20 - [API] RESTWebServices.MVC spike"
+"Mon 03/07/11 - Sun 03/13/11","03/12/11","04:40","04:40 - [API] RESTWebServices.MVC spike"
+"Mon 03/07/11 - Sun 03/13/11","03/13/11","04:10","04:10 - [API] RESTWebServices.MVC spike"
+"Mon 03/14/11 - Sun 03/20/11","03/14/11","07:50","02:10 - [API] RESTWebServices.MVC spike
+00:50 - [Admin] - wk 11 show & tell
+01:20 - [Admin] Expenses claim
+03:30 - [Admin] Participate in social media discussion"
+"Mon 03/14/11 - Sun 03/20/11","03/15/11","06:10","01:20 - [Admin] Emails & faq questions
+00:30 - [Admin] Emails soliciting particiaption in faq.labs.cityindex.com
+00:30 - [Admin] Retrospective planning
+03:50 - [CIAPI.CS] Dealing with Streaming bugs"
+"Mon 03/14/11 - Sun 03/20/11","03/16/11","09:20","01:20 - [CIAPI.CS] Dealing with Streaming bugs
+03:10 - [CIAPI.CS] Bug triage planning
+01:00 - [CIAPI.CS] Streaming bugs
+01:00 - [CIAPI.CS] Streaming bugs
+02:10 - [CIAPI.CS] Streaming bugs
+00:40 - [CIAPI.Java] Retrospective"
+"Mon 03/14/11 - Sun 03/20/11","03/17/11","08:40","01:00 - [CIAPI.Java] Retrospective
+02:30 - [Admin] planning meetings
+03:00 - [API] RESTWebServices.MVC spike
+02:10 - [API] -RESTWebServices.MVC spike"
+"Mon 03/14/11 - Sun 03/20/11","03/18/11","05:50","00:50 - [Admin] Halifax sales presentation
+00:20 - [API] -RESTWebServices.MVC spike
+00:40 - [API] Import RESTWebServices.MVC spike into TFS
+00:30 - [CIAPI.docs] Publish new SMD & JSchema
+03:30 - [CIAPI.CS] Streaming bugs"
+"Mon 03/14/11 - Sun 03/20/11","03/19/11","01:20","01:20 - [CIAPI.CS] Streaming bugs"
+"Mon 03/14/11 - Sun 03/20/11","03/20/11","00:00",""
+"Mon 03/21/11 - Sun 03/27/11","03/21/11","05:40","02:00 - [API] RESTWebservices.MVC spike
+01:00 - [API] RESTWebServices.MVC spike
+02:40 - [API] -RESTWebServices.MVC spike"
+"Mon 03/21/11 - Sun 03/27/11","03/22/11","08:00","01:40 - [Admin] Emails & planning
+04:00 - [API] RESTWebservices.MVC spike
+01:20 - [CIAPI.Java] Koans
+01:00 - [Admin] Status update with Sky"
+"Mon 03/21/11 - Sun 03/27/11","03/23/11","06:10","01:00 - [Admin] Status update with Sky
+00:50 - [Dojo prep] Nolio best practises
+00:40 - [Dojo prep] Nolio best practises
+03:40 - [Dojo prep] Nolio best practises"
+"Mon 03/21/11 - Sun 03/27/11","03/24/11","08:00","00:30 - [CIAPI.CS] Streaming bugs
+01:10 - [CIAPI.CS] Streaming bugs
+00:20 - [API] -RESTWebServices.MVC spike
+01:30 - [Dojo prep] Nolio best practise
+00:50 - [Admin] Catchup with Ryan
+03:40 - [CIAPI.docs] Google docs spike"
+"Mon 03/21/11 - Sun 03/27/11","03/25/11","01:30","01:30 - [API] RESTWebservices.MVC spike"
+"Mon 03/21/11 - Sun 03/27/11","03/26/11","00:00",""
+"Mon 03/21/11 - Sun 03/27/11","03/27/11","07:00","02:30 - [API] RESTWebServices.MVC spike
+00:50 - [Admin] Show & Tell
+02:30 - [API] RESTWebServices.MVC spike
+01:10 - [API] RESTWebservices.MVC spike"
+"Mon 03/28/11 - Sun 04/03/11","03/28/11","06:10","01:00 - [API] RESTWebServices.MVC spike
+01:50 - [API] -RESTWebServices.MVC spike
+02:20 - [API] Present RESTWebservices.MVC spike
+01:00 - [API] -RESTWebServices.MVC spike"
+"Mon 03/28/11 - Sun 04/03/11","03/29/11","05:00","00:10 - [Admin] Budgeting
+00:30 - [Admin] Budgeting
+01:50 - [Admin] Budgeting
+01:30 - [Admin] Status update presentation
+01:00 - [CIAPI.docs] - Split content from application"
+"Mon 03/28/11 - Sun 04/03/11","03/30/11","06:50","00:10 - [CIAPI.docs] - Split content from application
+00:50 - [Admin] - Planning
+03:10 - [CIAPI.docs] - Split content from application
+02:00 - [Admin] - Planning
+00:40 - [Admin] -  Show + Tell"
+"Mon 03/28/11 - Sun 04/03/11","03/31/11","00:00",""
+"Mon 03/28/11 - Sun 04/03/11","04/01/11","00:00",""
+"Mon 03/28/11 - Sun 04/03/11","04/02/11","00:00",""
+"Mon 03/28/11 - Sun 04/03/11","04/03/11","00:00",""
+"Mon 04/04/11 - Sun 04/10/11","04/04/11","00:00",""
+"Mon 04/04/11 - Sun 04/10/11","04/05/11","00:00",""
+"Mon 04/04/11 - Sun 04/10/11","04/06/11","00:00",""
+"Mon 04/04/11 - Sun 04/10/11","04/07/11","00:00",""
+"Mon 04/04/11 - Sun 04/10/11","04/08/11","00:00",""
+"Mon 04/04/11 - Sun 04/10/11","04/09/11","00:00",""
+"Mon 04/04/11 - Sun 04/10/11","04/10/11","00:00",""
+"Mon 04/11/11 - Sun 04/17/11","04/11/11","08:00","02:00 - [Admin] Recruitment planning with Ryan
+01:20 - [API] RESTWebservices.MVC spike
+04:40 - [CIAPI.Js] ZapTrade/TradeMe prototype"
+"Mon 04/11/11 - Sun 04/17/11","04/12/11","05:40","05:40 - [CIAPI.Js] ZapTrade/TradeMe prototype"
+"Mon 04/11/11 - Sun 04/17/11","04/13/11","06:40","06:40 - [CIAPI.Js] ZapTrade/TradeMe prototype"
+"Mon 04/11/11 - Sun 04/17/11","04/14/11","02:50","02:50 - [CIAPI.Js] ZapTrade/TradeMe prototype"
+"Mon 04/11/11 - Sun 04/17/11","04/15/11","00:00",""
+"Mon 04/11/11 - Sun 04/17/11","04/16/11","00:00",""
+"Mon 04/11/11 - Sun 04/17/11","04/17/11","00:00",""
+"Mon 04/18/11 - Sun 04/24/11","04/18/11","00:00",""
+"Mon 04/18/11 - Sun 04/24/11","04/19/11","00:00",""
+"Mon 04/18/11 - Sun 04/24/11","04/20/11","00:00",""
+"Mon 04/18/11 - Sun 04/24/11","04/21/11","04:00","04:00 - [CIAPI.Js] MarketGrid skeleton"
+"Mon 04/18/11 - Sun 04/24/11","04/22/11","01:30","01:30 - [CIAPI.Js] MarketGrid skeleton"
+"Mon 04/18/11 - Sun 04/24/11","04/23/11","00:00",""
+"Mon 04/18/11 - Sun 04/24/11","04/24/11","00:00",""
+"Mon 04/25/11 - Sun 05/01/11","04/25/11","00:00",""
+"Mon 04/25/11 - Sun 05/01/11","04/26/11","00:00",""
+"Mon 04/25/11 - Sun 05/01/11","04/27/11","00:00",""
+"Mon 04/25/11 - Sun 05/01/11","04/28/11","00:00",""
+"Mon 04/25/11 - Sun 05/01/11","04/29/11","00:00",""
+"Mon 04/25/11 - Sun 05/01/11","04/30/11","00:00",""
+"Mon 04/25/11 - Sun 05/01/11","05/01/11","00:00",""
+"Mon 05/02/11 - Sun 05/08/11","05/02/11","00:00",""
+"Mon 05/02/11 - Sun 05/08/11","05/03/11","00:00",""
+"Mon 05/02/11 - Sun 05/08/11","05/04/11","00:00",""
+"Mon 05/02/11 - Sun 05/08/11","05/05/11","00:00",""
+"Mon 05/02/11 - Sun 05/08/11","05/06/11","00:00",""
+"Mon 05/02/11 - Sun 05/08/11","05/07/11","00:00",""
+"Mon 05/02/11 - Sun 05/08/11","05/08/11","00:00",""
+"Mon 05/09/11 - Sun 05/15/11","05/09/11","08:30","00:40 - [faq] Mark old site as readonly
+02:50 - [Admin] -  Catchup
+01:00 - [Admin] -  Shapado site move
+04:00 - [Admin] catup with Mike"
+"Mon 05/09/11 - Sun 05/15/11","05/10/11","17:40","16:00 - [CIAPI.CS.Screensaver] Migrate to github.com/cityindex/CIAPI.CS.Screensaver
+01:40 - [CIAPI.Js] Config build"
+"Mon 05/09/11 - Sun 05/15/11","05/11/11","07:40","03:40 - [Admin] Catchup with Sky
+04:00 - [CIAPI.Js] Build process"
+"Mon 05/09/11 - Sun 05/15/11","05/12/11","01:10","01:10 - [CIAPI.Js] Build process"
+"Mon 05/09/11 - Sun 05/15/11","05/13/11","07:10","03:00 - [CIAPI.Js] Build process
+01:40 - [Admin] catchup ryan
+02:30 - [CIAPI.Js] Deploy"
+"Mon 05/09/11 - Sun 05/15/11","05/14/11","01:30","01:30 - [CIAPI.Js] Deploy"
+"Mon 05/09/11 - Sun 05/15/11","05/15/11","00:00",""
+"Mon 05/16/11 - Sun 05/22/11","05/16/11","07:10","00:40 - [Admin] Catchup with Ryan
+01:00 - [Admin] Planning
+01:30 - [CIAPI.docs] Show Chung Lee how the docs work
+01:00 - [Admin] Catchup with Ryan
+01:30 - [CIAPI.Js] Debug MarketGrid in CIAPI.Wordpress
+01:30 - [Admin] Debug new faq.labs.cityindex.com install"
+"Mon 05/16/11 - Sun 05/22/11","05/17/11","09:10","01:00 - [Admin] Debug new faq.labs.cityindex.com install
+01:00 - [Admin] Catchup with Ryan
+01:00 - [CIAPI.Js] - MarketGrid design discussions
+01:10 - [CIAPI.CS.Excel] Status update
+05:00 - [CIAPI.Js] - Chart"
+"Mon 05/16/11 - Sun 05/22/11","05/18/11","07:30","01:30 - [CIAPI.docs] - Catchup with Sky
+06:00 - [Admin] - Status presentation"
+"Mon 05/16/11 - Sun 05/22/11","05/19/11","11:40","01:00 - [CIAPI.CS.Excel] writing specs
+00:50 - [Admin] Emails
+00:10 - [Admin] Emails
+05:30 - [Admin] - Catchup with Ryan
+01:10 - [CIAPI.Js] - Loading scripts in a wordpress context
+00:10 - [CIAPI.Js] - Loading scripts in a wordpress context
+01:30 - [CIAPI.Js] - Loading scripts in a wordpress context
+01:20 - [CIAPI.Java] - Catchup with Justin"
+"Mon 05/16/11 - Sun 05/22/11","05/20/11","06:50","00:50 - [CIAPI.Java] - Catchup with Justin
+01:50 - [CIAPI.Js] - MarketGrid planning
+04:10 - [CIAPI.Js] - Streaming prices"
+"Mon 05/16/11 - Sun 05/22/11","05/21/11","00:00",""
+"Mon 05/16/11 - Sun 05/22/11","05/22/11","00:00",""
+"Mon 05/23/11 - Sun 05/29/11","05/23/11","00:00",""
+"Mon 05/23/11 - Sun 05/29/11","05/24/11","08:00","02:30 - [Admin]
+05:30 - [Meetings]"
+"Mon 05/23/11 - Sun 05/29/11","05/25/11","07:50","03:10 - [Admin] status meeting with Sky
+01:30 - [Admin] CIAPI.CS.Excel planning
+02:10 - [Admin] CIAPI.CS handover
+01:00 - [Admin] - Budgeting"
+"Mon 05/23/11 - Sun 05/29/11","05/26/11","00:00",""
+"Mon 05/23/11 - Sun 05/29/11","05/27/11","08:30","02:20 - [Admin] Catchup with Ryan
+06:10 - [CIAPI.Js] Open Positions widget"
+"Mon 05/23/11 - Sun 05/29/11","05/28/11","01:10","01:10 - [CIAPI.Js] Open Positions widget"
+"Mon 05/23/11 - Sun 05/29/11","05/29/11","00:00",""
+"Mon 05/30/11 - Sun 06/05/11","05/30/11","00:00",""
+"Mon 05/30/11 - Sun 06/05/11","05/31/11","09:00","01:30 - [CIAPI.Js] OAuth 2.0 research
+00:20 - [Admin] Daily catchup with Ryan
+03:30 - [Admin] Budgeting
+02:00 - [CIAPI.CS] Handover to David Leach
+01:40 - [CIAPI.CS.Excel] Build to create ClickOnce deployment"
+"Mon 05/30/11 - Sun 06/05/11","06/01/11","08:40","01:20 - [CIAPI.docs] Catchup with Sky
+07:20 - [CIAPI.Js] Authentication widget"
+"Mon 05/30/11 - Sun 06/05/11","06/02/11","10:10","03:30 - [Admin] Catchup & planning with Mike
+01:30 - [CIAPI.AspNet] Test widget skeleton in Ektron
+02:10 - [CIAPI.AspNet] Authentication Widget
+02:00 - [Admin] Shapado import
+01:00 - [CIAPI.Js] Authentication widget"
+"Mon 05/30/11 - Sun 06/05/11","06/03/11","05:40","01:00 - [CIAPI.Js] Authentication widget
+02:10 - [CIAPI.CS.Excel] Milestone planning
+02:30 - [CIAPI.Js] Authentication widget"
+"Mon 05/30/11 - Sun 06/05/11","06/04/11","00:00",""
+"Mon 05/30/11 - Sun 06/05/11","06/05/11","00:00",""
+"Mon 06/06/11 - Sun 06/12/11","06/06/11","04:30","04:30 - [CIAPI.AspNet] Authentication Widget"
+"Mon 06/06/11 - Sun 06/12/11","06/07/11","07:10","02:00 - [Admin] Budgeting & daily status update with Ryan
+02:20 - [CIAPI.CS.Excel] Status update
+02:50 - [CIAPI.Jsl] Make authentication request"
+"Mon 06/06/11 - Sun 06/12/11","06/08/11","10:30","00:50 - [Admin] Catchup with Sky
+03:30 - [Admin] Dojo prep
+04:30 - [CIAPI.Js] Make authentication request
+01:40 - [Admin] faq.labs.cityindex.com selfhost"
+"Mon 06/06/11 - Sun 06/12/11","06/09/11","06:40","00:30 - [Admin] Dojo
+00:20 - [Admin] Dojo
+01:00 - [Admin] Dojo
+00:30 - [Admin] Dojo
+00:20 - [Admin] Dojo
+00:20 - [Admin] Dojo
+01:00 - [Admin] Dojo
+00:30 - [Admin] Dojo prep
+00:50 - [CIAPI.CS.Excel] - Show & Tell & planning
+00:30 - [CIAPI.CS.Excel] - Show & Tell & planning
+00:50 - [CIAPI.AspNet] Authentication"
+"Mon 06/06/11 - Sun 06/12/11","06/10/11","06:50","06:50 - [CIAPI.Js] Authentication Widget"
+"Mon 06/06/11 - Sun 06/12/11","06/11/11","00:00",""
+"Mon 06/06/11 - Sun 06/12/11","06/12/11","00:00",""
+"Mon 06/13/11 - Sun 06/19/11","06/13/11","00:00",""
+"Mon 06/13/11 - Sun 06/19/11","06/14/11","00:00",""
+"Mon 06/13/11 - Sun 06/19/11","06/15/11","00:00",""
+"Mon 06/13/11 - Sun 06/19/11","06/16/11","08:20","02:30 - [Admin] Catchup with Ryan
+05:50 - [CIAPI.Js] Authentication"
+"Mon 06/13/11 - Sun 06/19/11","06/17/11","09:10","01:30 - [CIAPI.AspNet] - Authentication widget
+07:40 - [CIAPI.CS.Excel] Log bug reports"
+"Mon 06/13/11 - Sun 06/19/11","06/18/11","00:00",""
+"Mon 06/13/11 - Sun 06/19/11","06/19/11","00:00",""
+"Mon 06/20/11 - Sun 06/26/11","06/20/11","06:20","02:00 - [CIAPI.Js] Authentication
+00:10 - [Admin] Recruiting Nick Sertis
+01:20 - [Admin] Recruiting Nick Sertis
+01:20 - [CIAPI.Js] Authentication
+01:30 - [CIAPI.Js] Authentication Widget"
+"Mon 06/20/11 - Sun 06/26/11","06/21/11","07:50","01:40 - [CIAPI.Js] Authentication Widget
+03:20 - [FAQ] Reset Tim's password
+02:50 - [CIAPI.Js] Authentication widget"
+"Mon 06/20/11 - Sun 06/26/11","06/22/11","08:10","00:10 - [CIAPI.docs] Catchup with Sky
+00:10 - [CIAPI.docs] Catchup with Sky
+00:40 - [CIAPI.docs] Catchup with Sky
+00:40 - [CIAPI.docs] Catchup with Sky
+00:10 - [CIAPI.docs] Catchup with Sky
+00:10 - [Admin] Emails
+00:50 - [Admin] Emails
+05:20 - [CIAPI.Js] Authentication widget"
+"Mon 06/20/11 - Sun 06/26/11","06/23/11","00:10","00:10 - [CIAPI.Js] Authentication"
+"Mon 06/20/11 - Sun 06/26/11","06/24/11","06:40","01:00 - [Admin] Catchup
+01:40 - [Admin] Prepare for status presentation
+00:40 - [Admin] Prepare status update presentation
+00:10 - [Admin] Prepare status update presentation
+00:10 - [Admin] Prepare status update presentation
+03:00 - [Admin] Prepare for status presentation"
+"Mon 06/20/11 - Sun 06/26/11","06/25/11","01:00","01:00 - [Admin] Prepare for status presentation"
+"Mon 06/20/11 - Sun 06/26/11","06/26/11","00:00",""
