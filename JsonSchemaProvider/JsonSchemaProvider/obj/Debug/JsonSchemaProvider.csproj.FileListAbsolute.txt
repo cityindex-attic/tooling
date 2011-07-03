@@ -1,0 +1,5 @@
+C:\dev\tooling\JsonSchemaProvider\JsonSchemaProvider\bin\JsonSchemaProvider.dll
+C:\dev\tooling\JsonSchemaProvider\JsonSchemaProvider\bin\JsonSchemaProvider.pdb
+C:\dev\tooling\JsonSchemaProvider\JsonSchemaProvider\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\tooling\JsonSchemaProvider\JsonSchemaProvider\obj\Debug\JsonSchemaProvider.dll
+C:\dev\tooling\JsonSchemaProvider\JsonSchemaProvider\obj\Debug\JsonSchemaProvider.pdb
