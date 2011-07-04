@@ -3,3 +3,8 @@ _resharper
 JsonSchemaProvider/_ReSharper.JsonSchemaProvider/
 *.user
 *.suo
+JsonSchemaProvider/JsonSchemaProvider/bin
+JsonSchemaProvider/JsonSchemaProvider/bin/*
+JsonSchemaProvider/JsonSchemaProvider/obj/*
+JsonSchemaProvider/JsonSchemaProvider/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+JsonSchemaProvider/JsonSchemaProvider/bin/JsonSchemaProvider.dll
