@@ -50,12 +50,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dto-schema.js" />
     <Content Include="Index.htm" />
-    <Content Include="JsonSchemaProvider.js" />
-    <Content Include="IJsonSchemaWriter.js" />
+    <Content Include="JsonSchemaProvider2.js" />
     <Content Include="js\fauxconsole.css" />
     <Content Include="js\fauxconsole.js" />
-    <Content Include="test.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

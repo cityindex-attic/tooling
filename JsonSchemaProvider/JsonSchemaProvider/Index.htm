@@ -2,12 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
+    <script src="dto-schema.js" type="text/javascript"></script>
+    <script src="JsonSchemaProvider2.js" type="text/javascript"></script>
     <style type="text/css">
         @import 'js/fauxconsole.css';
     </style>
-    <script src="JsonSchemaProvider.js" type="text/javascript"></script>
-    <script src="IJsonSchemaWriter.js" type="text/javascript"></script>
-    <script src="test.js" type="text/javascript"></script>
 </head>
 <body>
     <p>
@@ -20,6 +19,7 @@
         The initial use case is code generation.</p>
     <p>
         &nbsp;</p>
+    <pre id="code"></pre>
     <script type="text/javascript" src="js/fauxconsole.js"></script>
     <script type="text/javascript">
         if (console.addLoadEvent) {
