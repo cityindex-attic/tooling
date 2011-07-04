@@ -233,9 +233,20 @@ function test() {
     };
     provider.Visitor.prototype = {
         provider: {},
+        normalizeKey: function (key) {
+            if (key.indexOf("#.") > -1 || key.indexOf("#/") > -1) {
+                key = key.substring(2);
+            };
+            return key;
+        },
         resolveType: function (property) {
+
+
+
+
             var propertyType;
             var nullable = false;
+            var propIsArray = false;
             if (isArray(property.type)) {
                 var self = this;
 
@@ -266,44 +277,55 @@ function test() {
                 propertyType = property.type;
             };
 
-            switch (property.type) {
-                case "string":
-                    // new formats "wcf-date"
-                    if (property.format == "wcf-date") {
-                        propertyType = "DateTime";
-                    }
-                    else {
-                        propertyType = "string";
-                    }
-                    break;
-                case "number":
-                    // new formats "decimal[-precision?]"
-                    if (property.format == "decimal") {
-                        propertyType = "decimal";
-                    }
-                    else {
-                        propertyType = "float";
-                    }
-                    break;
-                case "integer":
-                    propertyType = "int";
-                    break;
-                case "boolean":
-                    propertyType = "bool";
-                    break;
-                case "object":
-                    break;
-                case "array":
-                    // only support homogenous arrays, so .items should have 1 element
-                    if (!isDefined(property.items)) {
-                        throw new Error("items not specified for array type");
-                    }
-                    break;
-                case "null":
-                    break;
-                case "any":
-                    break;
+
+            if (property.$ref) {
+
+                propertyType = this.normalizeKey(property.$ref);
+
+            } else {
+                switch (property.type) {
+                    case "string":
+                        // new formats "wcf-date"
+                        if (property.format == "wcf-date") {
+                            propertyType = "DateTime";
+                        }
+                        else {
+                            propertyType = "string";
+                        }
+                        break;
+                    case "number":
+                        // new formats "decimal[-precision?]"
+                        if (property.format == "decimal") {
+                            propertyType = "decimal";
+                        }
+                        else {
+                            propertyType = "float";
+                        }
+                        break;
+                    case "integer":
+                        propertyType = "int";
+                        break;
+                    case "boolean":
+                        propertyType = "bool";
+                        break;
+                    case "object":
+                        break;
+                    case "array":
+
+                        if (!isDefined(property.items)) {
+                            throw new Error("items not specified for array type");
+                        }
+                        // only support homogenous arrays, so .items should have 1 element
+                        break;
+                    case "null":
+                        break;
+                    case "any":
+                        break;
+                }
             }
+
+
+
 
             return propertyType + (nullable ? "?" : "");
 
@@ -339,7 +361,11 @@ function test() {
             var current = this.provider.peek();
             switch (this.provider.stack.length) {
                 case 3: // type definition
-                    this.writeLine("    public class " + current.key + (current.value["extends"] ? (" : " + current.value["extends"]) : ""));
+                    var typeName = "class";
+                    if (current.value["enum"]) {
+                        typeName = "enum";
+                    };
+                    this.writeLine("    public " + typeName + " " + current.key + (current.value["extends"] ? (" : " + current.value["extends"]) : ""));
                     this.writeLine("    {");
                     break;
                 case 5: // type property
