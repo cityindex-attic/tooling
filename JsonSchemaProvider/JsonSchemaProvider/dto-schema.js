@@ -1,5 +1,10 @@
-﻿var schema =
+﻿// JSV - the javascript reference implementation of JSON Schema validator only recognizes merged schema with types defined in .properties
+// so either we change meta gen output or premunge the schema.
+// the better choice is to output { properties:{ type1:{} as this will allow decorating the schema itself with proprietary attributes like 'namespace'
+
+var schema =
 {
+    namespace: "CIAPI.DTO",
     properties: {
         "ApiStopLimitOrderHistoryDTO": {
             "id": "ApiStopLimitOrderHistoryDTO",

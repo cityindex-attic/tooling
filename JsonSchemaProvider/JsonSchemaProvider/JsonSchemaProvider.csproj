@@ -53,6 +53,7 @@
     <Content Include="dto-schema.js" />
     <Content Include="Index.htm" />
     <Content Include="JSchemaInheritanceResolver.js" />
+    <Content Include="JSchemaProvider.CSharpVisitor.js" />
     <Content Include="JSchemaProvider.js" />
     <Content Include="js\fauxconsole.css" />
     <Content Include="js\fauxconsole.js" />

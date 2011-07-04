@@ -3,6 +3,7 @@
 
 (function () {
 
+
     window.JSchemaInheritanceResolver = function (schema) {
         /// <summary>
         /// InheritanceResolver walks the schema and applies base attributes and
@@ -12,14 +13,16 @@
     };
 
     window.JSchemaInheritanceResolver.prototype = {
-        resolve: function () {
+        resolve: function (hasProperties) {
+            /// <param name="hasProperties" type="Boolean">true if types are specified in a properties object, false if types are in root of schema</param>
             var self = this;
-            each(self.schema.properties, function (target, name) {
-                self.resolveSchema(target);
+            this._properties = hasProperties ? this.schema.properties : this.schema;
+            each(self._properties, function (target, name) {
+                self._resolveSchema(target);
             });
 
         },
-        resolveSchema: function (target) {
+        _resolveSchema: function (target) {
 
 
 
@@ -40,7 +43,7 @@
                 if (base["extends"]) {
                     // this recursion will drill down to the beginning of the 
                     // inheritance for this schema before applying 
-                    this.resolveSchema(base);
+                    this._resolveSchema(base);
                 }
 
                 this.applyBaseSchema(base, target);
@@ -78,8 +81,8 @@
                 key = key.substring(2);
             };
 
-            if (isDefined(this.schema.properties[key])) {
-                return this.schema.properties[key];
+            if (isDefined(this._properties[key])) {
+                return this._properties[key];
             };
         }
     };
