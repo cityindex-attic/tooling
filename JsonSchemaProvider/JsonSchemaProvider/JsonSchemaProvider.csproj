@@ -50,13 +50,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dto-schema.js" />
+    <Content Include="CSharpLightStreamerChannelGenerator.js" />
+    <Content Include="schema.js" />
     <Content Include="Index.htm" />
     <Content Include="JSchemaInheritanceResolver.js" />
     <Content Include="JSchemaProvider.CSharpVisitor.js" />
     <Content Include="JSchemaProvider.js" />
     <Content Include="js\fauxconsole.css" />
     <Content Include="js\fauxconsole.js" />
+    <Content Include="schema.patch.js" />
+    <Content Include="smd.js" />
+    <Content Include="CSharpRouteGenerator.js" />
+    <Content Include="routes.patch.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -66,11 +71,12 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="testing\ApiAsyncResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="testing\testing.cs" />
+    <Compile Include="testing\testingroutes.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="reference\schema.json" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>

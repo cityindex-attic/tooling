@@ -2,11 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
-    <script src="dto-schema.js" type="text/javascript"></script>
+    <script src="schema.js" type="text/javascript"></script>
+    <script src="schema.patch.js" type="text/javascript"></script>
+    <script src="smd.js" type="text/javascript"></script>
+    <script src="routes.patch.js" type="text/javascript"></script>
+    
     <script src="JSchemaInheritanceResolver.js" type="text/javascript"></script>
     <script src="JSchemaProvider.js" type="text/javascript"></script>
     <script src="JSchemaProvider.CSharpVisitor.js" type="text/javascript"></script>
-    
+    <script src="CSharpRouteGenerator.js" type="text/javascript"></script>
+    <script src="CSharpLightStreamerChannelGenerator.js" type="text/javascript" ></script>
     <style type="text/css">
         @import 'js/fauxconsole.css';
     </style>
@@ -22,11 +27,15 @@
         The initial use case is code generation.</p>
     <p>
         &nbsp;</p>
-    <pre id="code"></pre>
+    <textarea id="code" style="width: 100%; height: 400px"></textarea>
+    <textarea id="routes" style="width: 100%; height: 400px"></textarea>
     <script type="text/javascript" src="js/fauxconsole.js"></script>
     <script type="text/javascript">
+
+        var lowdex = 1.79769313486231e308;
         if (console.addLoadEvent) {
             console.addLoadEvent(test);
+            console.addLoadEvent(generateRoutes);
         } else {
             window.onload = test;
         }

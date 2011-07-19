@@ -1,6 +1,6 @@
 ﻿
 /// <reference path="JSchemaProvider.js" />
-
+// TODO: add namespace name and imports
 (function () {
 
     window.JSchemaProvider.CSharpVisitor = function () {
@@ -23,7 +23,21 @@
             var propertyType;
             var nullable = false;
             var propIsArray = false;
-            if (isArray(property.type)) {
+            if (property.type == "array") {
+
+                propIsArray = true;
+                if (!isDefined(property.items)) {
+                    throw new Error("items not specified for array type");
+                }
+                // only support homogenous arrays, so .items should have 1 element
+                if (property.items.length != 1) {
+                    throw new Error("only homogenous arrays supported");
+                };
+
+                propertyType = property.items[0];
+
+            }
+            else if (isArray(property.type)) {
                 var self = this;
 
                 // a nullable type will look like this
@@ -36,7 +50,9 @@
 
 
                     each(property.type, function (value) {
-                        if (value == "null") { nullable = true; } else {
+                        if (value == "null") {
+                            nullable = true;
+                        } else {
                             propertyType = value;
                         }
                     });
@@ -54,57 +70,57 @@
             };
 
 
-            if (property.$ref) {
+            if (propertyType.$ref) {
 
-                propertyType = this.normalizeKey(property.$ref);
+                propertyType = this.normalizeKey(propertyType.$ref);
 
             } else {
-                switch (property.type) {
-                    case "string":
-                        // new formats "wcf-date"
-                        if (property.format == "wcf-date") {
-                            propertyType = "DateTime";
-                        }
-                        else {
-                            propertyType = "string";
-                        }
-                        break;
-                    case "number":
-                        // new formats "decimal[-precision?]"
-                        if (property.format == "decimal") {
-                            propertyType = "decimal";
-                        }
-                        else {
-                            propertyType = "float";
-                        }
-                        break;
-                    case "integer":
-                        propertyType = "int";
-                        break;
-                    case "boolean":
-                        propertyType = "bool";
-                        break;
-                    case "object":
-                        break;
-                    case "array":
 
-                        if (!isDefined(property.items)) {
-                            throw new Error("items not specified for array type");
-                        }
-                        // only support homogenous arrays, so .items should have 1 element
-                        break;
-                    case "null":
-                        break;
-                    case "any":
-                        break;
-                }
+
+
+                propertyType = this.applyFormat(propertyType, property);
             }
 
+            return propertyType + (nullable ? "?" : "") + (propIsArray ? "[]" : "");
 
+        },
+        applyFormat: function (propertyType, property) {
+            switch (propertyType) {
+                case "string":
+                    // new formats "wcf-date"
+                    if (property.format == "wcf-date") {
+                        propertyType = "DateTime";
+                    }
+                    else {
+                        propertyType = "string";
+                    }
+                    break;
+                case "number":
+                    // new formats "decimal[-precision?]"
+                    if (property.format == "decimal") {
+                        propertyType = "decimal";
+                    }
+                    else {
+                        propertyType = "float";
+                    }
+                    break;
+                case "integer":
+                    propertyType = "int";
+                    break;
+                case "boolean":
+                    propertyType = "bool";
+                    break;
+                case "object":
+                    break;
 
-
-            return propertyType + (nullable ? "?" : "");
-
+                case "null":
+                    break;
+                case "any":
+                    break;
+                default:
+                    break;
+            }
+            return propertyType;
         },
         writeLine: function (value) {
             this._lines.push(value);
@@ -129,6 +145,7 @@
             switch (this.provider.stack.length) {
                 case 1:
                     this.writeLine("}");
+                    this.writeLine("");
                     break;
             }
         },
@@ -137,12 +154,32 @@
             var current = this.provider.peek();
             switch (this.provider.stack.length) {
                 case 3: // type definition
+                    var self = this;
                     var typeName = "class";
                     if (current.value["enum"]) {
                         typeName = "enum";
                     };
-                    this.writeLine("    public " + typeName + " " + current.key + (current.value["extends"] ? (" : " + current.value["extends"]) : ""));
+                    if (current.value.description) {
+                        self.writeLine("    /// <summary>");
+                        self.writeLine("    /// " + current.value.description);
+                        self.writeLine("    /// </summary>");
+                    };
+                    this.writeLine("    public " + typeName + " " + current.key + (current.value["extends"] ? (" : " + this.normalizeKey(current.value["extends"])) : ""));
                     this.writeLine("    {");
+                    if (typeName == "enum") {
+                        // not really a better place to handle this...
+                  
+                        each(current.value.options, function (obj) {
+
+                            if (obj.description) {
+                                self.writeLine("        /// <summary>");
+                                self.writeLine("        /// " + obj.description);
+                                self.writeLine("        /// </summary>");
+                            };
+                            self.writeLine("        " + obj.label + " = " + obj.value + ",");
+
+                        });
+                    }
                     break;
                 case 5: // type property
                     var propertyType = this.resolveType(current.value);
@@ -156,6 +193,7 @@
             switch (this.provider.stack.length) {
                 case 3:
                     this.writeLine("    }");
+                    this.writeLine("");
                     break;
             }
         }
@@ -166,7 +204,10 @@
     // private lib funcs
 
     function isArray(obj) {
-        return (obj && obj.prototype == Array);
+
+        return ((typeof (obj) == "object") && isDefined(obj.length));
+
+
     };
 
     function isDefined(obj) {

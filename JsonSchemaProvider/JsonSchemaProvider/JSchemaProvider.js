@@ -8,8 +8,8 @@
 function test() {
 
     // for use when rendering the schema out flat
-    var resolver = new JSchemaInheritanceResolver(schema);
-    resolver.resolve(true);
+    //    var resolver = new JSchemaInheritanceResolver(schema);
+    //    resolver.resolve(true);
 
     var visitor = new JSchemaProvider.CSharpVisitor();
     var provider = new JSchemaProvider(visitor);
@@ -23,13 +23,13 @@ function test() {
 
     var output = visitor.toString();
     // IE sucks
-    output = output.replace(/\n/g, "<br/>").replace(/\s/g, "&nbsp;");
-    document.getElementById("code").innerHTML = output;
+    //output = output.replace(/\n/g, "<br/>\n").replace(/\s/g, "&nbsp;");
+    document.getElementById("code").value = output;
 };
 
 (function () {
 
-    
+
 
 
 
@@ -68,7 +68,7 @@ function test() {
         "$schema"];
     };
 
-    
+
     provider.prototype = {
         stack: [],
         visitor: {},
@@ -145,20 +145,12 @@ function test() {
         },
 
         "visit_type": function () {
-            if (isArray()) {
-                // is a union. array is populated
-                // by simple type (string) and/or schema
-                // this is how we specify nullable
-            } else {
-                // is a simple type
-            };
         },
         "visit_disallow": function () {
             // similar to .type
         },
         "visit_extends": function () {
             // string or array of strings
-
         },
 
 
@@ -169,11 +161,6 @@ function test() {
         "visit_dependencies": function () { },
         "visit_enum": function () { },
         "visit_default": function () { },
-
-
-
-
-
 
 
         // simple props
