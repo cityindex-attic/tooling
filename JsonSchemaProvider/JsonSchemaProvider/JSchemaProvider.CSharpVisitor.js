@@ -164,6 +164,7 @@
                         self.writeLine("    /// " + current.value.description);
                         self.writeLine("    /// </summary>");
                     };
+                    self.writeLine("    [Serializable]");
                     this.writeLine("    public " + typeName + " " + current.key + (current.value["extends"] ? (" : " + this.normalizeKey(current.value["extends"])) : ""));
                     this.writeLine("    {");
                     if (typeName == "enum") {
