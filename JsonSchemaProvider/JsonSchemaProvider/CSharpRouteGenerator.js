@@ -320,7 +320,7 @@ function generateRoutes() {
     // private lib funcs
 
     function isArray(obj) {
-        return (obj && obj.prototype == Array);
+        return (obj && (typeof (obj) == "object") && obj.length);
     };
 
     function isDefined(obj) {
@@ -329,7 +329,7 @@ function generateRoutes() {
 
     function each(obj, action) {
         var self = this;
-        if (obj.prototype && obj.prototype == Array) {
+        if (isArray(obj)) {
             for (var i = 0; i < obj.length; i++) {
                 action.call(self, obj[i], i, obj);
             }

@@ -68,8 +68,7 @@
                         "$ref": "#.QuoteDTO"
                     },
                     "group": "Streaming API"
-                }            
-            
+                }
             }
         },
         "rpc": {
@@ -84,7 +83,7 @@
                     "transport": "POST",
                     "envelope": "JSON",
                     "returns": {
-                        "$ref": "#/ApiLogOnResponseDTO"
+                        "$ref": "ApiLogOnResponseDTO"
                     },
                     "group": "Authentication",
                     "throttleScope": "data",
@@ -105,7 +104,7 @@
                     "transport": "POST",
                     "envelope": "JSON",
                     "returns": {
-                        "$ref": "#/ApiLogOffResponseDTO"
+                        "$ref": "ApiLogOffResponseDTO"
                     },
                     "group": "Authentication",
                     "throttleScope": "data",
@@ -138,7 +137,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/GetPriceBarResponseDTO"
+                        "$ref": "GetPriceBarResponseDTO"
                     },
                     "group": "Price History",
                     "cacheDuration": 10000,
@@ -179,7 +178,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/GetPriceTickResponseDTO"
+                        "$ref": "GetPriceTickResponseDTO"
                     },
                     "group": "Price History",
                     "cacheDuration": 10000,
@@ -208,7 +207,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/GetMarketInformationResponseDTO"
+                        "$ref": "GetMarketInformationResponseDTO"
                     },
                     "group": "Market",
                     "throttleScope": "data",
@@ -230,7 +229,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/ListMarketInformationSearchResponseDTO"
+                        "$ref": "ListMarketInformationSearchResponseDTO"
                     },
                     "group": "Market",
                     "throttleScope": "data",
@@ -288,7 +287,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/ListNewsHeadlinesResponseDTO"
+                        "$ref": "ListNewsHeadlinesResponseDTO"
                     },
                     "group": "News",
                     "cacheDuration": 10000,
@@ -322,7 +321,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/GetNewsDetailResponseDTO"
+                        "$ref": "GetNewsDetailResponseDTO"
                     },
                     "group": "News",
                     "cacheDuration": 10000,
@@ -347,7 +346,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/ListCfdMarketsResponseDTO"
+                        "$ref": "ListCfdMarketsResponseDTO"
                     },
                     "group": "CFD Markets",
                     "throttleScope": "data",
@@ -396,7 +395,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/ListSpreadMarketsResponseDTO"
+                        "$ref": "ListSpreadMarketsResponseDTO"
                     },
                     "group": "Spread Markets",
                     "cacheDuration": 10000,
@@ -447,7 +446,7 @@
                     "transport": "POST",
                     "envelope": "JSON",
                     "returns": {
-                        "$ref": "#/ApiTradeOrderResponseDTO"
+                        "$ref": "ApiTradeOrderResponseDTO"
                     },
                     "group": "Trades and Orders",
                     "throttleScope": "trading",
@@ -468,7 +467,7 @@
                     "transport": "POST",
                     "envelope": "JSON",
                     "returns": {
-                        "$ref": "#/ApiTradeOrderResponseDTO"
+                        "$ref": "ApiTradeOrderResponseDTO"
                     },
                     "group": "Trades and Orders",
                     "parameters": [
@@ -488,7 +487,7 @@
                     "transport": "POST",
                     "envelope": "JSON",
                     "returns": {
-                        "$ref": "#/ApiTradeOrderResponseDTO"
+                        "$ref": "ApiTradeOrderResponseDTO"
                     },
                     "group": "Trades and Orders",
                     "parameters": [
@@ -508,7 +507,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/ListOpenPositionsResponseDTO"
+                        "$ref": "ListOpenPositionsResponseDTO"
                     },
                     "group": "Trades and Orders",
                     "parameters": [
@@ -528,7 +527,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/ListActiveStopLimitOrderResponseDTO"
+                        "$ref": "ListActiveStopLimitOrderResponseDTO"
                     },
                     "group": "Trades and Orders",
                     "parameters": [
@@ -548,7 +547,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/GetActiveStopLimitOrderResponseDTO"
+                        "$ref": "GetActiveStopLimitOrderResponseDTO"
                     },
                     "group": "Trades and Orders",
                     "parameters": [
@@ -568,7 +567,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/GetOpenPositionResponseDTO"
+                        "$ref": "GetOpenPositionResponseDTO"
                     },
                     "group": "Trades and Orders",
                     "parameters": [
@@ -588,7 +587,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/ListTradeHistoryResponseDTO"
+                        "$ref": "ListTradeHistoryResponseDTO"
                     },
                     "group": "Trades and Orders",
                     "parameters": [
@@ -613,7 +612,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/ListStopLimitOrderHistoryResponseDTO"
+                        "$ref": "ListStopLimitOrderHistoryResponseDTO"
                     },
                     "group": "Trades and Orders",
                     "parameters": [
@@ -638,7 +637,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/GetOrderResponseDTO"
+                        "$ref": "GetOrderResponseDTO"
                     },
                     "group": "Trades and Orders",
                     "parameters": [
@@ -658,7 +657,7 @@
                     "transport": "POST",
                     "envelope": "JSON",
                     "returns": {
-                        "$ref": "#/ApiTradeOrderResponseDTO"
+                        "$ref": "ApiTradeOrderResponseDTO"
                     },
                     "group": "Trades and Orders",
                     "throttleScope": "trading",
@@ -679,7 +678,7 @@
                     "transport": "POST",
                     "envelope": "JSON",
                     "returns": {
-                        "$ref": "#/ApiTradeOrderResponseDTO"
+                        "$ref": "ApiTradeOrderResponseDTO"
                     },
                     "group": "Trades and Orders",
                     "throttleScope": "trading",
@@ -700,7 +699,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/AccountInformationResponseDTO"
+                        "$ref": "AccountInformationResponseDTO"
                     },
                     "group": "AccountInformation",
                     "throttleScope": "data",
@@ -715,7 +714,7 @@
                     "transport": "GET",
                     "envelope": "URL",
                     "returns": {
-                        "$ref": "#/ApiErrorResponseDTO"
+                        "$ref": "ApiErrorResponseDTO"
                     },
                     "group": "Exception Handling",
                     "throttleScope": "data",
@@ -728,6 +727,7 @@
             }
           ]
                 }
+
             }
         }
     }
